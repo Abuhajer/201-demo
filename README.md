@@ -1,4 +1,9 @@
 # `201-demo` 
+<hr>
+
+![](https://www.hugovela.com/uploads/1/1/0/7/110797397/source_orig.gif)
+
+<hr>
 
 ## Project Name: About Me, with a guessing game.
 ## Author: Dana Kiswani
