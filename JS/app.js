@@ -1,7 +1,7 @@
 'use strict';
 
 
-alert('Hey Youuuuu ,Welcome to My wibsite');
+alert('Hey Youuuuu ,Welcome to My website');
 var dana = prompt('What was you do in the quarantine ??'+'[study/read/take a course/playing games/eat/watch movies/watch serise]').toLowerCase();
 // console.log(dana);
 
