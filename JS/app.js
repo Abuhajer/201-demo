@@ -2,6 +2,11 @@
 var count=0;
 
 alert('Hey Youuuuu ,Welcome to My wibsite');
+
+var name= prompt("Whats your name");
+alert("Welcome to my website"+ name );
+
+
 var dana = prompt('What was you do in the quarantine ??'+'[study/read/take a course/playing games/eat/watch movies/watch serise]').toLowerCase();
 // console.log(dana);
 
@@ -25,7 +30,7 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
   //  console.log(user);
 
   if(user === "yes" || user === "y"){
-  alert('OH! Thanx Dear welcome welcome');
+  alert('OH! Thanx' +  name  + ' welcome welcome');
    count++;
    } else if (  user === "no" || user === "n") {
   alert('Oops! WHYYYYYYYY =0');
@@ -35,7 +40,7 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
 
     //  ------------------------------------------------
 
-    var user = prompt('Mmmm , Do i love Software??').toLowerCase();
+    var user = prompt('Mmmm , Do you love Software??').toLowerCase();
     // console.log(user);
     switch (true){
     case (user === "yes" || user === "y"): 
@@ -60,7 +65,7 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
       count++;
 
       } else if(user === "no" || user === "n") {
-      alert('Oops! GOOGLE it');
+      alert('Oops! GOOGLE it' +  name);
       }
       else alert("??");
 
@@ -73,7 +78,7 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
           // console.log(user);
 
           if(user === "yes" || user === "y"){
-           alert('OH! Nice');
+           alert('OH! Nice'  +  name  +  'keep going');
            count++;
 
             } else if ( user === "no" || user === "n") {
@@ -89,23 +94,19 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
           // console.log(user);
 
           if(user === "yes" || user === "y"){
-           alert('I\'m Sorry for your time');
+           alert('I\'m Sorry for your time' +  name );
            count++;
             } else if(user === "no" || user === "n") {
-           alert('Thank you');
+           alert('Thank you'+ name);
              }
              else alert("??");
 
     //  -----------------------------------
 
 
-//  var guess= [1,2,3,4,5,6,7,8,9,10];
-//  var usernum=prompt("Can you guess a number from 1 to 10 thats in my mind..!");
-//      usernum=Number(usernum);
 
-// for(var h=0; h < 4 ;h++){
-// console.log(h);
-// }
+    var secretNum=5;
+
 
 
 
