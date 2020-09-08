@@ -1,7 +1,7 @@
 'use strict';
 var count=0;
 
-alert('Hey Youuuuu ,Welcome to My website');
+alert('Hey Youuuuu ,Welcome to My wibsite');
 var dana = prompt('What was you do in the quarantine ??'+'[study/read/take a course/playing games/eat/watch movies/watch serise]').toLowerCase();
 // console.log(dana);
 
@@ -94,7 +94,6 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
             } else if(user === "no" || user === "n") {
            alert('Thank you');
              }
-<<<<<<< HEAD
              else alert("??");
 
     //  -----------------------------------
@@ -120,5 +119,3 @@ if(dana == 'read' || dana == 'study' || dana == 'take a course'){
             
 alert ("your score is"+ count + "/7");
 
-=======
->>>>>>> e83e1c77d0498e7eb8fb4136dce45348c5632936
