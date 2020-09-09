@@ -53,3 +53,40 @@ section{
 
 /* -------------------------------------- */
 
+h3{
+    padding: 35px;
+    font-size: xx-large;
+    margin: 36px;
+    border: inset;
+    color: indianred;
+}
+
+ol{
+    display: block;
+    margin: 5%;
+    /* padding: 3%; */
+    font-size: 30px;
+    font-family: monospace;
+    color: slategrey;
+    background-color: wheat;
+}
+
+h3 b {
+    display: block;
+    margin: 3%;
+    padding: 3%;
+    font-size: 30px;
+    font-family: monospace;
+    color: slategrey;
+    background-color: wheat;
+}
+
+ul{
+    display: block;
+    margin: 14%;
+    /* padding: 3%; */
+    font-size: 30px;
+    font-family: monospace;
+    color: slategrey;
+    background-color: wheat;
+}

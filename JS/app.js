@@ -158,5 +158,6 @@ while (x < 6) {
   x++;
 }
 
+
 alert("your score is" + count + "/7");
 
